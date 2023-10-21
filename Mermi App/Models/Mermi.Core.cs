@@ -2,7 +2,7 @@
 
 namespace Mermi_App.Models
 {
-    public class Mermi
+    public class Mermi:IMermi
     {
         public string Request { get; set; }
         public int BulletCount { get; set; }

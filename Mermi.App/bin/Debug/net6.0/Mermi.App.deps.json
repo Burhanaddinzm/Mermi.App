@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mermi.App/1.0.0": {
+        "dependencies": {
+          "Mermi.Services": "1.0.0"
+        },
+        "runtime": {
+          "Mermi.App.dll": {}
+        }
+      },
+      "Mermi.Core/1.0.0": {
+        "runtime": {
+          "Mermi.Core.dll": {}
+        }
+      },
+      "Mermi.Services/1.0.0": {
+        "dependencies": {
+          "Mermi.Core": "1.0.0"
+        },
+        "runtime": {
+          "Mermi.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mermi.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mermi.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mermi.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
